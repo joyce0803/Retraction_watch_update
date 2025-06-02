@@ -82,7 +82,7 @@ def main():
 
     # Append new records with GitLab commit date
     append_new_records(existing_df, latest_df, sheet, commit_date)
-    
+
 
 # === ENTRY POINT ===
 if __name__ == "__main__":
